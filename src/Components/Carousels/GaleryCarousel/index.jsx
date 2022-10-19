@@ -43,7 +43,7 @@ export const GaleryCarousel = ({ title = '' }) => {
   return (
     <div className='galery_carousel_wrapper'>
       <div className='container'>
-        <div style={title == '' ? { display: 'none' } : {}} className='galery_carousel_header'>
+        <div style={title === '' ? { display: 'none' } : {}} className='galery_carousel_header'>
           <h3 className='carousel__title'>{title}</h3>
         </div>
         <div className='galery_carousel_block'>

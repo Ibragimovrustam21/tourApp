@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import useLang from "../../Hook/useLang";
-import content from "../../Localization/content";
 import './header.scss';
 
 // images
@@ -19,13 +17,8 @@ export default function Header() {
         console.log(`selected ${value}`);
     };
 
-  const [lang, setLang] = useLang();
 
-  // LANG
-  const onChangeLang = (e) => {
-    setLang(e.target.value);
-  };
-
+  
     const menu = [
         {
             name: 'Bosh sahifa',

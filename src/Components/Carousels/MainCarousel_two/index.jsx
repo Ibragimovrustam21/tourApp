@@ -6,7 +6,7 @@ import './mainCarouselTwo.scss';
 // images
 import Images2 from "../../../Assets/images/single-2.png"
 
-export const MainCarousel_two = ({ title = '', text = '' }) => {
+export const MainCarouselTwo = ({ title = '', text = '' }) => {
   let settings = {
     dots: false,
     infinite: false,

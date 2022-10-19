@@ -24,19 +24,19 @@ export default function SinglePageLast() {
                     <h2 className="single__left--head">Qo’shimcha malumotlar</h2>
                     <ul className="single__left--list">
                         <li className="single__left--item">
-                            <img className="single__left--img2" src={Images1} width={50} height={50} alt="image" />
+                            <img className="single__left--img2" src={Images1} width={50} height={50} alt="" />
                             <p className="single__left--title2"><b>Manzil:</b> Lorem ipsum dolor sit amet.</p>
                         </li>
                         <li className="single__left--item">
-                            <img className="single__left--img2" src={Images2} width={50} height={50} alt="image" />
+                            <img className="single__left--img2" src={Images2} width={50} height={50} alt="" />
                             <p className="single__left--title2"><b>Telfon:</b> +998 90 123- 45-67</p>
                         </li>
                         <li className="single__left--item">
-                            <img className="single__left--img2" src={Images3} width={50} height={50} alt="image" />
+                            <img className="single__left--img2" src={Images3} width={50} height={50} alt="" />
                             <p className="single__left--title2"><b>Narx:</b> 100.000 - 500.000 so’m gacha</p>
                         </li>
                         <li className="single__left--item">
-                            <img className="single__left--img2" src={Images4} width={50} height={50} alt="image" />
+                            <img className="single__left--img2" src={Images4} width={50} height={50} alt="" />
                             <p className="single__left--title2"><b>Ish vaqtlari:</b> 9:00 - 22:00 gacha</p>
                         </li>
                     </ul>

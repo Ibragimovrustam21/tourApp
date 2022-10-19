@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import './single3.scss';
 // images
@@ -18,16 +18,16 @@ export const Single3Slider = () =>  {
         {/* <h2> Single Item</h2> */}
         <Slider {...settings}>
           <div>
-            <img src={SliderImg}  width={410} height={432} alt="" />
+            <img src={SliderImg}  width={410} height={432} alt="sd" />
           </div>
           <div>
-            <img src={SliderImg2}  width={410} height={432} alt="" />
+            <img src={SliderImg2}  width={410} height={432} alt="asdas" />
           </div>
           <div>
-            <img src={SliderImg}  width={410} height={432} alt="" />
+            <img src={SliderImg}  width={410} height={432} alt="asdsad" />
           </div>
           <div>
-            <img src={SliderImg2} width={410} height={432} alt="" />
+            <img src={SliderImg2} width={410} height={432} alt="adsdsa" />
           </div>
         </Slider>
       </div>
