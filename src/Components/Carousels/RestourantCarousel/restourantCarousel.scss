@@ -1,0 +1,144 @@
+.res_carousel_wrapper {
+  height: 650px;
+  box-sizing: border-box;
+  padding: 50px 0;
+  background: url('../../../Assets/background/resBackground.png') no-repeat;
+  background-size: 120% 100%;
+
+  .container {
+    height: 100%;
+  }
+
+  .carousel_header {
+    height: 20%;
+
+    h3 {
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 47px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+  }
+
+  .carousel__title::before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 30px;
+    transform: translateY(-10px);
+  }
+
+  .carousel_block {
+    height: 80%;
+
+    .slick-slider {
+      height: 100%;
+      position: relative;
+    }
+
+    .slick-list,
+    .slick-slide {
+      height: 100% !important;
+
+      div {
+        height: 100% !important;
+      }
+    }
+
+    .slick-arrow {
+      border: 1px solid #fff;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      z-index: 3;
+      opacity: 1;
+
+      &::before {
+        font-size: 30px;
+        color: #fff;
+      }
+    }
+
+    .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before {
+      opacity: 1;
+    }
+
+    .slick-prev {
+      &::before {
+        content: '🠔';
+        border: none;
+      }
+    }
+
+    .slick-next {
+      &::before {
+        content: '🠖';
+        border: none;
+      }
+    }
+
+    .slick-dots {
+      bottom: -40px;
+
+      .slick-active button:before {
+        opacity: 1 !important;
+      }
+    }
+
+    .slick-dots li button:before {
+      font-size: 12px;
+      color: #fff;
+      opacity: 0.25;
+    }
+
+    .carousel_item_block {
+      box-sizing: border-box;
+      padding: 0 40px;
+
+      .carousel-item {
+        display: flex !important;
+        align-self: center;
+
+        .carousel-item-left {
+          width: 600px;
+
+          img {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+          }
+        }
+
+        .carousel-item-right {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          box-sizing: border-box;
+          padding: 20px;
+          padding-left: 40px;
+
+          h2 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 47px;
+            color: #fff;
+            margin-bottom: 20px;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 44px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

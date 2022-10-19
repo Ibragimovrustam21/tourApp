@@ -1,0 +1,42 @@
+.city_carousel_wrapper {
+  height: 700px;
+  box-sizing: border-box;
+
+  .container {
+    height: 100%;
+  }
+
+  .city_carousel_header {
+    height: 10%;
+  }
+
+  .city_carousel_block {
+    height: 90%;
+
+    .slick-slider {
+      height: 100%;
+      position: relative;
+    }
+
+    .slick-list,
+    .slick-slide {
+      height: 100% !important;
+
+      div {
+        height: 100% !important;
+      }
+    }
+
+    .carousel-item-box {
+      box-sizing: border-box;
+
+      .carousel-item {
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}

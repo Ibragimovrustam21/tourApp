@@ -1,0 +1,126 @@
+.single{
+    margin:  20px 0;
+    display: flex;
+
+    &__left {
+        padding: 20px;
+        border: 1.5px solid #999;
+        border-radius: 20px;
+        height: 420px;
+    }
+
+    &__left--head {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+    }
+
+    &__left--list {
+        margin-top: 30px;
+    }
+
+    &__left--item {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    &__left--img{
+        margin-right: 20px;
+    }
+
+    &__left--title{
+        width: 265px;
+    }
+
+    &__left--content {
+        margin-top: 50px;
+    }
+
+    .left__content--images {
+        margin-top: 40px;
+    }
+
+    .left__content--img{
+        margin-right: 20px;
+    }
+
+    &__right {
+        margin-left: 100px;
+    }
+
+    &__right--head {
+        width: 635px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 65px;
+        color: #000000;
+
+    }
+
+    &__right--text {
+        width: 635px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #717171;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    &__right--time {
+        margin-top: 15px;
+        display: block;
+    }
+
+    &__right--img {
+        margin-top: 50px;
+    }
+
+    &__right--text2 {
+        width: 741px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 38px;
+        color: #000000;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    &__right--title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+    }
+
+    &__right--hr {
+        width: 140px;
+        height: 2px;
+        background-color: #000000;
+    }
+
+    &__right--div {
+        width: 701px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 38px;
+        color: #000000;
+        padding: 20px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        background-color: rgb(230, 230, 230);
+        border: none;
+        margin-top: 30px;
+    } 
+}
+
+
+

@@ -1,0 +1,126 @@
+.card__item {
+    position: relative;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.card__item--content {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 8px 1px #999;
+    transition: all 0.2s linear;
+}
+
+.card__item:hover .card__item--link {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+.card__item:hover .card__item--content {
+    transform: translateY(-30px);
+    transition: all 0.2s linear;
+}
+
+.card__item--image {
+    width: 100%;
+    height: auto;
+    height: 216px;
+    border-radius: 10px;
+}
+
+.card__item--head {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #181720;
+    margin-top: 10px;
+}
+
+.card__item--text {
+    width: 255px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(24, 23, 32, 0.6);
+    opacity: 0.8;
+    margin-top: 12px;
+}
+
+.card__item--location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(24, 23, 32, 0.6);
+    opacity: 0.8;
+    margin-top: 24px;
+    display: flex;
+}
+
+.card__item--location::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../../../Assets/images/pin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.card__item--num {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(24, 23, 32, 0.6);
+    opacity: 0.8;
+    margin-top: 30px;
+    display: flex;
+}
+
+.card__item--num::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../../../Assets/images/insights.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.item__box--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.card__item--link {
+    background: #285D53;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.2s linear;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 0;
+letter-spacing: 0.6s;
+    &:hover {
+        color: #fff;
+    }
+
+    svg {
+        margin-left: 10px;
+    }
+}

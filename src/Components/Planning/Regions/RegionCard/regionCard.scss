@@ -1,0 +1,63 @@
+.region__card {
+  background: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 380px;
+  width: 360px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+  &:nth-child(odd) {
+    margin-right: 20px;
+  }
+
+  &:nth-child(even) {
+    margin-top: 50px;
+  }
+
+  .region__card__img--box {
+    height: 270px;
+
+    .region__card--img {
+      position: relative;
+      z-index: 3;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .region__card--text {
+    padding: 20px;
+    position: relative;
+
+    .region__card--nav {
+      position: absolute;
+      top: -40px;
+      right: 40px;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 4;
+      background-color: #fff;
+      box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.2);
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      /* or 167% */
+
+
+      /* black */
+
+      color: #141414;
+
+      opacity: 0.7;
+    }
+  }
+}

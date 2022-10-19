@@ -1,0 +1,42 @@
+.input-block {
+  position: relative;
+
+  svg {
+    position: absolute;
+    left: 20px;
+    top: 20%;
+
+  }
+
+  input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #D8D8D8;
+    border-radius: 50px;
+    padding: 15px 60px;
+  }
+}
+
+.filter__wrapper {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+
+  .filter__left {
+    width: 25%;
+    padding-right: 40px;
+  }
+
+  .filter__right {
+    width: 75%;
+
+    .pagination__block {
+      text-align: center;
+
+      .ant-pagination-options {
+        display: none;
+      }
+
+    }
+  }
+}

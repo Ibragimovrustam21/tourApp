@@ -1,0 +1,101 @@
+.galery_carousel_wrapper {
+    height: 700px;
+    box-sizing: border-box;
+    padding: 50px 0;
+    background: rgba(56, 138, 123, 0.2);
+    background-image: url('../../../Assets/images/single1_bg.png');
+    background-position: top 50px center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        height: 100%;
+    }
+
+    .galery_carousel_header {
+        position: relative;
+        height: 20%;
+
+        h3 {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 47px;
+            color: #141414;
+        }
+
+        .carousel__title::before {
+            content: "";
+            display: inline-block;
+            width: 70px;
+            height: 4px;
+            background-color: #141414;
+            border-radius: 10px;
+            margin-right: 30px;
+            transform: translateY(-10px);
+        }
+    }
+
+    .galery_carousel_block {
+        height: 80%;
+
+        .slick-slider {
+            height: 100%;
+            position: relative;
+        }
+
+        .slick-list,
+        .slick-slide {
+            height: 100% !important;
+
+            div {
+                height: 100% !important;
+            }
+        }
+
+        .slick-arrow {
+            border: 1px solid #285D53;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            z-index: 3;
+            opacity: 1;
+
+            &::before {
+                font-size: 30px;
+                color: #285D53;
+            }
+        }
+
+        .slick-prev.slick-disabled:before,
+        .slick-next.slick-disabled:before {
+            opacity: 1;
+        }
+
+        .slick-prev {
+            &::before {
+                content: '🠔';
+                border: none;
+            }
+        }
+
+        .slick-next {
+            &::before {
+                content: '🠖';
+                border: none;
+            }
+        }
+
+        .carousel-item-box {
+            box-sizing: border-box;
+            padding: 0 40px;
+
+            .carousel-item {
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

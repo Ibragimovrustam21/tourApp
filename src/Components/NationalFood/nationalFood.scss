@@ -1,0 +1,27 @@
+.national_food_wrapper {
+  background: url('../../Assets/background/backgroundFood.png') no-repeat;
+  background-size: 120% 100%;
+
+  .main_carousel_two_header {
+    h3 {
+      color: #fff;
+    }
+  }
+
+  .carousel__title::before {
+    background-color: #fff !important;
+  }
+
+  .main_carousel_two_block {
+    .slick-arrow {
+      border: 2px solid #fff !important;
+      background: transparent;
+      z-index: 3;
+      opacity: 1;
+      
+      &::before {
+        color: #fff;
+      }
+    }
+  }
+}
