@@ -20,7 +20,6 @@ export const routes = [
         path: "/single",
         component: Single
     },
-    ,
     {
         name: "Single3",
         path: "/single3",
